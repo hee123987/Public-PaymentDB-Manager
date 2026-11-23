@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 원본 데이터
+data/*.csv
+
+# 데이터베이스 및 로그
+database/*.db
+*.sqlite3
+logs/
+
+# 상세 분석 결과
+results/search_result.csv
+results/value_changes.csv
+results/sql/top_records_by_decided.csv
